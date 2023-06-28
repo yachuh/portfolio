@@ -1227,7 +1227,6 @@ select {
     text-align: center;
     font-size: inherit;
   }
-/* review-swiper */
 .before\:absolute::before {
   content: var(--tw-content);
   position: absolute;
