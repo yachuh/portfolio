@@ -5,7 +5,9 @@ My personal website, showcasing my work experiences and something I've built. Ma
 ## Tech Sets
 - HTML 5
 - CSS 3
+- Javascript
 - TailwindCSS
+- ESLint
 - Gulp
 - EJS layout
 - [Swiper](https://swiperjs.com/)
