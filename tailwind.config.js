@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: '.75rem'
+      padding: '1.75rem'
     },
     fontSize: {
       xs: ['12px', '14px'],
@@ -19,7 +19,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        azeret: ['"Azeret Mono"']
+        rubik: ['Rubik'],
+        azeret: ['Azeret Mono']
       },
       colors: {
         transparent: 'transparent',
