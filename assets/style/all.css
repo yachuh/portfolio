@@ -577,6 +577,7 @@ select {
     font-family: "Rubik", "Noto Sans TC", system-ui, sans-serif;
   }
   body {
+  overflow-x: hidden;
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
