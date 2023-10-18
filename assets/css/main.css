@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /*擴充專案的全站樣式*/
+  html {
+    font-family: "Rubik", "Noto Sans TC", system-ui, sans-serif;
+  }
+  body {
+    @apply text-gray-700 overflow-x-hidden;
+  }
+  a {
+    @apply block;
+  }
+}
+
+@layer components {
+  /*自組元件*/
+  /* --- button ---*/
+  .btn {
+    @apply inline-block text-md rounded-full px-6 py-2 cursor-pointer transition-all ease-in-out duration-500;
+  }
+
+  .btn-primary {
+    @apply bg-primary ring-1 ring-inset text-white ring-primary hover:bg-white hover:text-primary hover:scale-100;
+  }
+
+  .btn-gradient {
+    color: white;
+    background: linear-gradient(104deg, #09acf5, #62db54);
+  }
+  .btn-gradient:hover {
+    background: linear-gradient(104deg, #62db54, #09acf5);
+  }
+
+  .btn-outline {
+    @apply ring-1 ring-inset text-primary ring-primary bg-white hover:bg-primary hover:text-white hover:scale-100;
+  }
+
+  /* --- hr --- */
+  .hr-white {
+    @apply relative pb-4 after:w-[50px] after:h-[3px] after:bg-white after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2 lg:after:left-0 lg:after:translate-x-0;
+  }
+
+  .hr-primary {
+    @apply relative pb-4 after:w-[50px] after:h-[3px] after:bg-primary after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2 lg:after:left-0 lg:after:translate-x-0;
+  }
+
+  /* input */
+  .input {
+    @apply w-full bg-dark-primary rounded border-white px-4 py-2 focus:border-primary focus:ring-0;
+  }
+}
+
+@layer utilities {
+  /*自組樣式*/
+  .bg-hero {
+    @apply bg-[url('../app/assets/images/bg-home.png')];
+  }
+
+  .bg-gradient {
+    @apply bg-gradient-to-b from-secondary to-primary;
+  }
+
+  .text-gradient {
+    color: transparent;
+    background: linear-gradient(180deg, #09acf5, #62db54);
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  .navbar-gradient {
+    background: linear-gradient(90deg, #09acf5 50%, #62db54 50%);
+  }
+
+  .absoluteCenter {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+
+  /* swiper */
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* skills-swiper */
+  .skills-swiper .swiper-slide {
+    width: auto; /*make width fit content*/
+    text-align: center;
+    font-size: inherit;
+  }
+}

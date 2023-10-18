@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yachu Hsieh - Frontend React Developer</title>
+
+    <%- include('./layout/cdn'); -%>
+
+  </head>
+  <body>
+
+    <%- include('./layout/header'); -%>
+
+    <main>
+      <!-- hero section -->
+      <section class="bg-[#f9f9f9]">
+        <div class="container">
+          <div class="flex flex-col-reverse lg:flex-row justify-center items-center gap-10 lg:gap-20 py-10 lg:py-20">
+            <!-- Hero Text -->
+            <div class="text-center lg:text-left">
+              <h2 class="text-4xl font-bold lg:text-5xl bg-gradient bg-clip-text text-transparent">
+                Front-End React Developer
+              </h2>
+              <p class="text-md my-4">
+                I'm Yachu Hsieh &#128075; A passionate Front-End React Developer coupled with strong foundation in product management skills.
+              </p>
+              <div class="mt-6 flex items-center justify-center lg:justify-start gap-4">
+                <a class="-m-1 p-1" href="https://www.linkedin.com/in/hsieh-ya-chu/" target="_blank"><i class="fa fa-linkedin-square hover:text-gradient transition-all ease-in-out" style="font-size:40px;"></i></a>
+                <a class="-m-1 p-1" href="https://github.com/yachuh" target="_blank"><i class="fa fa-github-square hover:text-gradient transition-all ease-in-out" style="font-size:40px;"></i></a>
+              </div>
+            </div>
+            <!-- Hero Image -->
+            <div class="w-[200px] h-[200px] bg-[url('../assets/images/profile.png')] bg-contain bg-no-repeat">
+            </div>
+          </div>
+        </div>
+        <!-- Tech Stack -->
+        <div class="container">
+          <div class="flex flex-col lg:flex-row items-center text-[#767676] text-center lg:text-left pb-10 lg:pb-20">
+            <p class="text-md font-azeret pb-2 lg:pb-0 lg:pr-4 mb-10 lg:mb-0 lg:mr-6 border-[#767676] border-b-2 lg:border-r-2 lg:border-b-0">Tech Stack</p>
+            <ul class="flex flex-wrap justify-center gap-4 lg:gap-8">
+              <li><img src="https://skillicons.dev/icons?i=html,css" alt="skill-icon"></li>
+              <li><img src="https://skillicons.dev/icons?i=js,react" alt="skill-icon"></li>
+              <li><img src="https://skillicons.dev/icons?i=tailwind,bootstrap,scss" alt="skill-icon"></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- About -->
+      <section id="about" class="pb-10 lg:py-12">
+        <div class="container">
+          <!-- <h2 class="text-2xl lg:text-4xl font-bold text-center w-[216px] lg:w-full mx-auto mb-4">About</h2> -->
+          <div class="flex flex-col lg:flex-row gap-8 justify-between mt-10 lg:mt-16 text-left">
+            <div class="w-full lg:w-1/3">
+              <img class="mx-auto object-contain rounded-2xl" src="../assets/images/yc.jpg" alt="yachu">
+            </div>
+            <div class="w-full lg:w-2/3">
+              <h2 class="text-2xl font-bold text-primary mb-2">ABOUT ME</h2>
+              <h3 class="text-xl mb-4">A Dedicated Developer constantly seeking for growth &#128640;</h3>
+              <ul>
+                <li class="mb-6">
+                  <p>
+                    <span class="font-semibold">I have a holistic understanding and great passion for building products.</span>
+                    My career journey spans marketing, product management and now web development, fostering a holistic understanding of product development and a strong focus on user experience. Delving deeper into the core of product development, I discovered my passion for programming and transitioned to a career as a software engineer.
+                  </p>
+                </li>
+                <li class="mb-6">
+                  <p>
+                    <span class="font-semibold">I excel as both a strong leader and a valuable team player.</span>
+                    During my time as a product manager, I’ve honed my leadership and communication skills, thriving in cross-functional collaboration to deliver outstanding web applications.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <span class="font-semibold">I am a highly self-motivated problem-solver and dedicated to continuous improvement.</span>
+                    Thriving in dynamic startup environments, I prioritize continuous learning and growth. As a self-taught developer, I've had hands-on experience in RWD development, JavaScript ES6+, React.js and Git.  My quick learning ability and insatiable curiosity has led me to keep acquiring new skills and exploring innovative solutions.
+                  </p>
+                  <p class="mt-2">I believe blogging is a great way to solidify my understanding:
+                    <a class="inline text-primary underline hover:opacity-70" href="https://hackmd.io/@yachuh/developer-memo" target="_blank">前端工程師筆記</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Skills -->
+      <section class="py-10 lg:py-12">
+        <div class="container">
+          <h2 class="relative text-2xl lg:text-4xl font-bold text-center w-[216px] lg:w-full mx-auto pb-4 mb-4 after:w-[80px] after:h-[3px] after:bg-primary after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2">Skills</h2>
+          <div class="flex flex-wrap gap-y-6 mt-10 lg:mt-16 -mx-3">
+            <div class="w-full lg:w-1/2 px-3">
+              <div class="bg-white rounded-xl border-2 border-gray-700 shadow-bottom shadow-[-3px_3px_0_#334155] text-left p-8 transition-all ease-in-out hover:translate-y-1 hover:-translate-x-1">
+                <h3 class="text-lg font-medium mb-4 before:h-2 border-l-2 border-primary pl-2">Front-End</h3>
+                <ul class="list-inside list-[square] text-md">
+                  <li class="marker:text-primary">HTML5</li>
+                  <li class="marker:text-primary">CSS3, SASS / SCSS</li>
+                  <li class="marker:text-primary">Javascript (ES6+)</li>
+                  <li class="marker:text-primary">ReactJS, React Hooks, React Router</li>
+                  <li class="marker:text-primary">Tailwind CSS</li>
+                  <li class="marker:text-primary">Bootstrap 5</li>
+                  <li class="marker:text-primary">ESLint, Prettier</li>
+                  <li class="marker:text-primary">RESTful API</li>
+                </ul>
+              </div>
+              <div class="bg-white rounded-xl border-2 border-gray-700 shadow-bottom shadow-[-3px_3px_0_#334155] text-left p-8 mt-6 transition-all ease-in-out hover:translate-y-1 hover:-translate-x-1">
+                <h3 class="text-lg font-medium mt-4 mb-4 before:h-2 border-l-2 border-primary pl-2">Back-End</h3>
+                  <ul class="list-inside list-[square] text-md">
+                    <li class="marker:text-primary">Node.js (basic)</li>
+                    <li class="marker:text-primary">Express.js (basic)</li>
+                    <li class="marker:text-primary">Database (basic) - PostgreSQL, MongoDB</li>
+                  </ul>
+              </div>
+            </div>
+            <div class="w-full lg:w-1/2 px-3">
+              <div class="group w-full bg-white rounded-xl border-2 border-gray-700 shadow-bottom shadow-[-3px_3px_0_#334155] text-left p-8 transition-all ease-in-out hover:translate-y-1 hover:-translate-x-1">
+                <h3 class="text-lg font-semibold mb-4 before:h-2 border-l-2 border-primary pl-2">Tools</h3>
+                <ul class="list-inside list-[square] text-md">
+                  <ul class="list-inside list-[square] mb-1"><span class="text-gray-500 ">Version Control</span>
+                    <li class="marker:text-primary">Git, GitHub</li>
+                  </ul>
+                  <ul class="list-inside list-[square] mb-1 mt-3"><span class="text-gray-500 ">Wireframe & UI</span>
+                    <li class="marker:text-primary">Figma, Sketch, Adobe Illustrator</li>
+                  </ul>
+                  <p class="text-gray-500 mb-1 mt-3">Project Management</p>
+                  <li class="marker:text-primary">Asana, Azure DevOps, Trello</li>
+                  <p class="text-gray-500 mb-1 mt-3">Other</p>
+                  <li class="marker:text-primary">API tool - Postman, Swagger</li>
+                  <li class="marker:text-primary">Wordpress</li>
+                </ul>
+              </div>
+              <div class="group w-full bg-white rounded-xl border-2 border-gray-700 shadow-bottom shadow-[-3px_3px_0_#334155] text-left p-8 mt-6 transition-all ease-in-out hover:translate-y-1 hover:-translate-x-1">
+                <h3 class="text-lg font-semibold mb-4 before:h-2 border-l-2 border-primary pl-2">Language</h3>
+                <ul class="list-inside list-[square] text-md">
+                  <li class="marker:text-primary">Mandarin, Taiwanese (native)</li>
+                  <li class="marker:text-primary">English (fluent)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Projects -->
+      <section id="projects" class="py-10 lg:py-12">
+        <div class="container" >
+          <h2 class="relative text-2xl lg:text-4xl font-bold text-center mx-auto pb-4 mb-4 after:w-[80px] after:h-[3px] after:bg-primary after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2">Some Things I've Built</h2>
+        </div>
+        <div class="container">
+          <!-- EasySplit -->
+          <div class="mt-10 lg:mt-20 flex flex-col lg:flex-row-reverse items-center relative">
+            <div class="lg:aboslute lg:right-0 z-10 w-full lg:w-2/3 rounded-xl" data-aos="fade-left">
+              <a href="https://github.com/yachuh/easysplit" target="_blank">
+                <img class="rounded-xl shadow-lg lg:brightness-50 hover:brightness-100 hover:scale-105 transition-all ease-in-out duration-500" 
+                  src="../assets/images/portfolio/EasySplit.png" alt="EasySplit"
+                >
+              </a>
+            </div>
+            <div class="lg:absolute lg:left-0 z-20 w-full lg:w-1/2 lg:rounded-xl mt-4 lg:mt-0" data-aos="fade-right">
+              <h3 class="text-xl font-medium text-primary mb-2">EasySplit 拆帳趣</h3>
+              <p>Online Bill-Splitting Website</p>
+              <!-- <div class="my-2 flex items-center gap-4">
+                <a href="">
+                  <i class="fa fa-link hover:opacity-50" style="font-size:24px;"></i>
+                </a>
+                <a href="">
+                  <i class="fa fa-github hover:opacity-50" style="font-size:24px;"></i>
+                </a>
+              </div> -->
+              <div class="text-gray-500 lg:bg-white lg:rounded-xl lg:drop-shadow-lg lg:p-8 lg:border mt-4">
+                <div class="flex items-center gap-4 mb-2">
+                  <a href="https://youtu.be/6Ga-GP6VK4g" target="_blank" class="text-primary underline hover:scale-110">Demo</a>
+                  <a href="https://github.com/yachuh/easysplit" target="_blank" class="text-primary underline hover:scale-110">GitHub</a>
+                </div>
+                <p>EasySplit helps people manage, share and split expenses easily with their family and friends.</p>
+                <ul class="list-inside list-[square]">
+                  <li class="marker:text-primary">Built with <span class="font-medium">ReactJS (hooks, React Router)</span></li>
+                  <li class="marker:text-primary">Performed input validation via <span class="font-medium">React Hook Form</span></li>
+                  <li class="marker:text-primary">Used <span class="font-medium">Axios</span> for calling <span class="font-medium">RESTful APIs</span></li>
+                  <li class="marker:text-primary">Implemented <span class="font-medium">Tailwind CSS</span> with custom styles and components</li>
+                  <li class="marker:text-primary">Implemented <span class="font-medium">ESLint & Prettier</span> to maintain a cleaner code base</li>
+                </ul>
+              </div>
+              <ul class="flex flex-wrap gap-y-1 gap-x-1 lg:gap-x-2 mt-4">
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">ReactJS</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">React Router</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">TailwindCSS</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">ESLint</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- smartBrain -->
+          <div class="mt-10 lg:mt-20 flex flex-col lg:flex-row-reverse items-center relative">
+            <div class="lg:aboslute lg:right-0 z-10 w-full lg:w-2/3 rounded-xl" data-aos="fade-left">
+              <a href="https://github.com/yachuh/smartBrain" target="_blank">
+                <img class="rounded-xl shadow-lg lg:brightness-50 hover:brightness-100 hover:scale-105 transition-all ease-in-out duration-500" 
+                     src="../assets/images/portfolio/SmartBrain.png" alt="smartBrain"
+                >
+              </a>
+            </div>
+            <div class="lg:absolute lg:left-0 z-20 w-full lg:w-1/2 lg:rounded-xl mt-4 lg:mt-0" data-aos="fade-right">
+              <h3 class="text-xl font-medium text-primary mb-2">SmartBrain</h3>
+              <p>AI Face Detector</p>
+              <div class="text-gray-500 lg:bg-white lg:rounded-xl lg:drop-shadow-lg lg:p-8 lg:border mt-4">
+                <div class="flex items-center gap-4 mb-2">
+                  <a href="https://yachuh.github.io/smartBrain" target="_blank" class="text-primary underline hover:scale-110">Demo</a>
+                  <a href="https://github.com/yachuh/smartBrain" target="_blank" class="text-primary underline hover:scale-110">GitHub(FE)</a>
+                  <a href="https://github.com/yachuh/smartBrain-api" target="_blank" class="text-primary underline hover:scale-110">GitHub(BE)</a>
+                </div>
+                <p>AI face detector tool, demonstrating both frontend and backend development.</p>
+                <ul class="list-inside list-[square]">
+                  <li class="marker:text-primary">Frontend built with <span class="font-medium">ReactJS & Vite</span></li>
+                  <li class="marker:text-primary">Backend built with <span class="font-medium">Node.js & Express.js</span>, deployed on <span class="font-medium">Render</span></li>
+                  <li class="marker:text-primary">Supported AI face detection with <span class="font-medium">Clarifai API</span></li>
+                  <li class="marker:text-primary">Implemented <span class="font-medium">React Hook Form</span> for form validation</span></li>
+                  <li class="marker:text-primary">Synced user's data with <span class="font-medium">PostgreSQL</span> database</li>
+                  <li class="marker:text-primary">Hashed user's password for protection with <span class="font-medium">bcrypt</span></li>
+                </ul>
+              </div>
+              <ul class="flex flex-wrap gap-y-1 gap-x-1 lg:gap-x-2 mt-4">
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">ReactJS</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Axios</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Node.js</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Express.js</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">ESLint</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- WOWOROOM -->
+          <div class="mt-10 lg:mt-20 flex flex-col lg:flex-row-reverse items-center relative">
+            <div class="lg:aboslute lg:right-0 z-10 w-full lg:w-2/3 rounded-xl" data-aos="fade-left">
+              <a href="https://github.com/yachuh/hexschool-js-final" target="_blank">
+                <img class="rounded-xl shadow-lg lg:brightness-50 hover:brightness-100 hover:scale-105 transition-all ease-in-out duration-500" 
+                     src="../assets/images/portfolio/WOWOROOM_BS.png" alt="WOWOROOM"
+                >
+              </a>
+            </div>
+            <div class="lg:absolute lg:left-0 z-20 w-full lg:w-1/2 lg:rounded-xl mt-4 lg:mt-0" data-aos="fade-right">
+              <h3 class="text-xl font-medium text-primary mb-2">WOWOROOM</h3>
+              <p>E-Commerce Website</p>
+              <div class="text-gray-500 lg:bg-white lg:rounded-xl lg:drop-shadow-lg lg:p-8 lg:border mt-4">
+                <div class="flex items-center gap-4 mb-2">
+                  <a href="https://yachuh.github.io/hexschool-js-final/" target="_blank" class="text-primary underline hover:scale-110">Demo(Front-stage)</a>
+                  <a href="https://yachuh.github.io/hexschool-js-final/admin.html" target="_blank" class="text-primary underline hover:scale-110">Demo(Back-stage)</a>
+                  <a href="https://github.com/yachuh/hexschool-js-final" target="_blank" class="text-primary underline hover:scale-110">Github</a>
+                </div>
+                <p>A Javascript assignment from HexSchool</p>
+                <ul class="list-inside list-[square]">
+                  <li class="marker:text-primary">Used <span class="font-medium">Axios</span> for calling <span class="font-medium">RESTful APIs</span></li>
+                  <li class="marker:text-primary">Integrated <span class="font-medium">Validate.js</span> to perform input validation and error handling</span></li>
+                  <li class="marker:text-primary">Implemented <span class="font-medium">C3.js</span> to display realtime piechart</li>
+                </ul>
+              </div>
+              <ul class="flex flex-wrap gap-y-1 gap-x-1 lg:gap-x-2 mt-4">
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Javascript</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Axios</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Validate.js</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">C3.js</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">ESLint</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- TodoList -->
+          <div class="mt-10 lg:mt-20 flex flex-col lg:flex-row-reverse items-center relative">
+            <div class="lg:aboslute lg:right-0 z-10 w-full lg:w-2/3 rounded-xl" data-aos="fade-left">
+              <a href="https://github.com/yachuh/rocketCamp-TodoListJWT" target="_blank">
+                <img class="rounded-xl shadow-lg lg:brightness-50 hover:brightness-100 hover:scale-105 transition-all ease-in-out duration-500"
+                     src="../assets/images/portfolio/todolist.png" alt="todolist"
+                >
+              </a>
+            </div>
+            <div class="lg:absolute lg:left-0 z-20 w-full lg:w-1/2 lg:rounded-xl mt-4 lg:mt-0" data-aos="fade-right">
+              <h3 class="text-xl font-medium text-primary mb-2">Online Todo List</h3>
+              <p>To do list app</p>
+              <div class="text-gray-500 lg:bg-white lg:rounded-xl lg:drop-shadow-lg lg:p-8 lg:border mt-4">
+                <div class="flex items-center gap-4 mb-2">
+                  <a href="https://yachuh.github.io/rocketCamp-TodoListJWT/" target="_blank" class="text-primary underline hover:scale-110">Demo</a>
+                  <a href="https://github.com/yachuh/rocketCamp-TodoListJWT" target="_blank" class="text-primary underline hover:scale-110">Github</a>
+                </div>
+                <p>A Javascript assignment from HexSchool</p>
+                <ul class="list-inside list-[square]">
+                  <li class="marker:text-primary">Used <span class="font-medium">Fetch API</span> for calling <span class="font-medium">RESTful APIs</span></li>
+                  <li class="marker:text-primary">Improved user experience by <span class="font-medium">RWD</span> using <span class="font-medium">SASS</span></li>
+                  <li class="marker:text-primary">Added <span class="font-medium">sweetalert2</span> to enhance alert and confirmation functionality</li>
+                </ul>
+              </div>
+              <ul class="flex flex-wrap gap-y-1 gap-x-1 lg:gap-x-2 mt-4">
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Javascript</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">RWD</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">SPA</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">SASS</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- 程式家教 -->
+          <div class="mt-10 lg:mt-20 flex flex-col lg:flex-row-reverse items-center relative">
+            <div class="lg:aboslute lg:right-0 z-10 w-full lg:w-2/3 rounded-xl" data-aos="fade-left">
+              <a href="https://github.com/yachuh/hexschool-layout-w6-coding-tailwind" target="_blank">
+                <img class="rounded-xl shadow-lg lg:brightness-50 hover:brightness-100 hover:scale-105 transition-all ease-in-out duration-500" 
+                  src="../assets/images/portfolio/CodingHome.png" alt="Coding Home"
+                >
+              </a>
+            </div>
+            <div class="lg:absolute lg:left-0 z-20 w-full lg:w-1/2 lg:rounded-xl mt-4 lg:mt-0" data-aos="fade-right">
+              <h3 class="text-xl font-medium text-primary mb-2">Coding Home</h3>
+              <p>Online Coding Tutor (web layout)</p>
+              <div class="text-gray-500 lg:bg-white lg:rounded-xl lg:drop-shadow-lg lg:p-8 lg:border mt-4">
+                <div class="flex items-center gap-4 mb-2">
+                  <a class="text-primary underline hover:scale-110" href="https://yachuh.github.io/hexschool-layout-w6-coding-tailwind/" target="_blank">Demo</a>
+                  <a class="text-primary underline hover:scale-110" href="https://github.com/yachuh/hexschool-layout-w6-coding-tailwind" target="_blank">Github</a>
+                </div>
+                <p> A web layout homework of HexSchool course. Featuring <span class="font-medium">RWD layout</span>, hamburger menu & modal in <span class="font-medium">pure Javascript</span>, and using 3rd party packages such as <span class="font-medium">Vanilla-JS-Datepicker</span> and <span class="font-medium">Swiper</span>.</p>
+              </div>
+              <ul class="flex flex-wrap gap-y-1 gap-x-1 lg:gap-x-2 mt-4">
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">RWD</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Javascript</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">TailwindCSS</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">EJS</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Gulp</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- 眼鏡電商 -->
+          <div class="mt-10 lg:mt-20 flex flex-col lg:flex-row-reverse items-center relative">
+            <div class="lg:aboslute lg:right-0 z-10 w-full lg:w-2/3 rounded-xl" data-aos="fade-left">
+              <a href="https://github.com/yachuh/hexschool-layout-w3-rwd" target="_blank">
+                <img class="rounded-xl shadow-lg lg:brightness-50 hover:brightness-100 hover:scale-105 transition-all ease-in-out duration-500" 
+                  src="../assets/images/portfolio/OptimalSunglasses.png" alt="眼鏡電商"
+                >
+              </a>
+            </div>
+            <div class="lg:absolute lg:left-0 z-20 w-full lg:w-1/2 lg:rounded-xl mt-4 lg:mt-0" data-aos="fade-right">
+              <h3 class="text-xl font-medium text-primary mb-2">Optimal Sunglasses</h3>
+              <p>E-commerce website (web layout)</p>
+              <div class="text-gray-500 lg:bg-white lg:rounded-xl lg:drop-shadow-lg lg:p-8 lg:border mt-4">
+                <div class="flex items-center gap-4 mb-2">
+                  <a class="text-primary underline hover:scale-110" href="https://yachuh.github.io/hexschool-layout-w3-rwd/" target="_blank">Demo</a>
+                  <a class="text-primary underline hover:scale-110" href="https://github.com/yachuh/hexschool-layout-w3-rwd" target="_blank">Github</a>
+                </div>
+                <p>A web layout assignment from HexSchool course showcasing a <span class="font-medium">RWD</span>, <span class="font-medium">custom JS-coded hamburger menu & dropdown</span>, and developed using <span class="font-medium">SCSS</span>.</p>
+              </div>
+              <ul class="flex flex-wrap gap-y-1 gap-x-1 lg:gap-x-2 mt-4">
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">RWD</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Javascript</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">SCSS</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">EJS</li>
+                <li class="bg-gray-400 text-white text-sm rounded-md px-2 py-1">Gulp</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- I Enjoy Building Products With -->
+      <section class="py-10 lg:py-12 bg-primary bg-opacity-10">
+        <div class="container lg:flex lg:justify-between lg:items-center">
+          <h2
+            class="relative text-2xl lg:text-3xl font-bold text-center lg:text-left pb-4 after:w-[80px] after:h-[3px] after:bg-primary after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2 lg:after:left-0 lg:after:translate-x-0"
+          >
+            I Enjoy Building<br/> Products With
+          </h2>
+          <ul
+            class="lg:w-3/4 flex flex-wrap items-center gap-y-6 text-center mt-10 -mx-3 lg:mt-0 lg:mx-0"
+          >
+            <li class="group w-full lg:w-1/3 px-3">
+              <a
+                class="block bg-white ring-1 ring-primary lg:ring-0 bg-opacity-80 drop-shadow-lg lg:drop-shadow-none lg:text-inherit rounded-xl px-6 py-12 lg:bg-inherit lg:opacity-50 lg:group-hover:opacity-100 lg:group-hover:bg-white log:group-hover:drop-shadow-lg lg:group-hover:ring-1 lg:group-hover:ring-primary lg:group-hover:scale-105 transition-all ease-in-out duration-300 cursor-default "
+              >
+                <span
+                  class="material-icons-outlined text-[50px] text-gradient lg:text-inherit align-bottom mb-6 lg:group-hover:text-gradient"
+                >
+                  emoji_objects
+                </span>
+                <h3 class="text-md font-bold mb-4">Business Mindset</h3>
+                <p>
+                  The synergy of my marketing, product management, and web development experiences brings a holistic perspective to tackle challenges.
+                </p>
+              </a>
+            </li>
+            <li class="group w-full lg:w-1/3 px-3">
+              <a
+                class="block bg-white ring-1 ring-primary lg:ring-0 bg-opacity-80 drop-shadow-lg lg:drop-shadow-none lg:text-inherit rounded-xl px-6 py-12 lg:bg-inherit lg:opacity-50 lg:group-hover:opacity-100 lg:group-hover:bg-white log:group-hover:drop-shadow-lg lg:group-hover:ring-1 lg:group-hover:ring-primary lg:group-hover:scale-105 transition-all ease-in-out duration-300 cursor-default "
+              >
+                <span
+                  class="material-icons-outlined text-[50px] text-gradient lg:text-inherit align-bottom mb-6 lg:group-hover:text-gradient"
+                >
+                  volunteer_activism
+                </span>
+                <h3 class="text-md font-bold mb-4">Great UI/UX</h3>
+                <p>
+                  My user-centric background instilled a strong emphasis on user experience, allows me to strive for pixel-perfect code and ensure accessibility for all users.
+                </p>
+              </a>
+            </li>
+            <li class="group w-full lg:w-1/3 px-3">
+              <a
+                class="block bg-white ring-1 ring-primary lg:ring-0 bg-opacity-80 drop-shadow-lg lg:drop-shadow-none lg:text-inherit rounded-xl px-6 py-12 lg:bg-inherit lg:opacity-50 lg:group-hover:opacity-100 lg:group-hover:bg-white log:group-hover:drop-shadow-lg lg:group-hover:ring-1 lg:group-hover:ring-primary lg:group-hover:scale-105 transition-all ease-in-out duration-300 cursor-default "
+              >
+                <span
+                  class="material-icons text-[50px] text-gradient lg:text-inherit align-bottom mb-6 lg:group-hover:text-gradient"
+                >
+                  code
+                </span>
+                <h3 class="text-md font-bold mb-4">Continuos Optimization</h3>
+                <p>
+                  I strive for minimal, efficient code, constantly improving quality, and embracing new technologies for optimization through ongoing learning.
+                </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+      <!-- Work Experience -->
+      <section id="workExp" class="py-10 lg:py-12">
+        <div class="container">
+          <h2 class="relative text-2xl lg:text-4xl font-bold text-center w-[216px] lg:w-full mx-auto pb-4 mb-4 after:w-[80px] after:h-[3px] after:bg-primary after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2">Work Experience</h2>
+          <div class="mt-10 lg:mt-20">
+            <ol class="relative ml-3 border-l border-gray-300" data-aos="fade-down">                  
+              <li class="mb-10 ml-6">
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-gradient rounded-full -left-3 material-icons text-white text-[14px]">business_center</span>
+                  <h3 class="flex items-center mb-1 text-lg lg:text-xl font-medium text-gray-900" data-aos="fade-up">
+                    Product Manager
+                  </h3>
+                  <div class="flex flex-wrap justify-between gap-2 mb-2" data-aos="fade-up">
+                    <a href="https://bizthinking.com.tw/" target="_blank" class="text-primary font-medium hover:underline">Business Thinking Academy 商業思維學院 (Remote, TW)</a>
+                    <time class="block font-normal leading-none text-gray-500">August 2020 - November 2021</time>
+                  </div>
+                  <p class="hidden lg:inline text-gray-500 italic" data-aos="fade-up">A leading online learning company offering comprehensive business thinking knowledge through courses, bootcamps, and a learning community of over 5,000 students.</p>
+                  <ul class="list-disc pt-4 pl-5" data-aos="fade-up">
+                    <li class="mb-4">Led the product development from 0 to 1. Worked closely with in-house and outsourced development team to drive prototype creation and product launch of the online learning platform and content management system.</li>
+                    <li class="mb-4">Collaborated with cross-functional teams and define product roadmap. Managed and prioritized product backlog items to meet business needs and improve user retention rates.</li>
+                    <li class="mb-4">Increased sales by implementing a payment gateway with a third-party API and transitioning to a subscription business model.</li>
+                    <li class="mb-4">Successfully launched homework management system, onboarding procedure, and LINE OA learning assistant by implementing third-party APIs to expedite the development process within limited time and resources.</li>
+                    <li class="mb-4">Enhanced the user learning experience by introducing the PBL system, online group study forum, and redesigning the homepage.</li>
+                    <li class="mb-4">Implemented the SCRUM methodology within the development team, enhancing teamwork efficiency. Achieved product build and launch within a timeframe of less than 3 months.</li>
+                    <li>Created flow charts, wireframes, wireflows, detailed PRD documents for the product.</li>
+                  </ul>
+              </li>
+              <li class="mb-10 ml-6">
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-gradient rounded-full -left-3 material-icons text-white text-[14px]">business_center</span>
+                  <h3 class="flex items-center mb-1 text-lg lg:text-xl font-medium text-gray-900" data-aos="fade-up">
+                    Product Manager
+                  </h3>
+                  <div class="flex flex-wrap justify-between gap-2 mb-2" data-aos="fade-up">
+                    <p class="flex"><a href="https://www.linkedin.com/company/mithio/" target="_blank" class="text-primary font-medium hover:underline">Mithril</a>&nbsp;&&nbsp;<a href="https://www.linkedin.com/company/machi-x/" target="_blank" class="text-primary font-medium hover:underline">MachiX (Taipei, TW)</a></p>
+                    <time class="block font-normal leading-none text-gray-500">October 2018 - December 2019</time>
+                  </div>
+                  <p class="hidden lg:inline text-gray-500 italic" data-aos="fade-up">Mithril (MITH) is a decentralized social media ecosystem on Ethereum that rewards content creators. VAULT, one of Mithril’s products, is a multi-currency crypto wallet. MachiX is a digital trading platform for music copyrights tokens</p>
+                  <ul class="list-disc pt-4 pl-5" data-aos="fade-up">
+                    <li class="mb-4">Collaborated closely with the development team to successfully launch prototypes and product features on various platforms, including Web, Android, and iOS.</li>
+                    <li class="mb-4">Utilized data analysis, A/B testing, and user research to redesign the homepage, resulting in a 20% increase in average click-through rate.</li>
+                    <li class="mb-4">Implemented KYC and AML procedures using third-party APIs to ensure asset safety and mitigate risks related to money laundering and other legal issues.</li>
+                    <li>Collaborated with the marketing and sales teams to integrate Mithril Pay with external partners, enabling real-life digital currency payments.</li>
+                  </ul>
+              </li>
+              <li class="mb-10 ml-6">
+                  <span class="absolute flex items-center justify-center w-6 h-6 bg-gradient rounded-full -left-3 material-icons text-white text-[14px]">business_center</span>
+                  <h3 class="flex items-center mb-1 text-lg lg:text-xl font-medium text-gray-900" data-aos="fade-up">
+                    Digital Marketing Director
+                  </h3>
+                  <div class="flex flex-wrap justify-between gap-2 mb-2" data-aos="fade-up">
+                    <p class="text-primary font-medium">Neuin Group 中子文化 (Taipei, TW)</p>
+                    <time class="block font-normal leading-none text-gray-500">January 2018 - June 2018</time>
+                  </div>
+                  <p class="hidden lg:inline text-gray-500 italic" data-aos="fade-up">
+                    Neuin Group is a company with multiple subsidiaries, including <a href="https://www.goodchos.com.tw/" target="_blank" class="inline text-primary hover:underline">GOOD CHO'S</a>, <a href="hhttps://www.legacy.com.tw/page/topic" target="_blank" class="inline text-primary hover:underline">Legacy</a>, and <a href="https://www.indievox.com/" target="_blank" class="inline text-primary hover:underline">iNDIEVOX.</a>. As a key role, I led and oversaw organization-wide marketing strategies.
+                  </p>
+                  <ul class="list-disc pt-4 pl-5" data-aos="fade-up">
+                    <li class="mb-4">Led and developed digital marketing training programs for marketing teams across multiple subsidiaries.</li>
+                    <li class="mb-4">Implemented data analytical tools such as Google Analytics, Google Tag Manager, and more to conduct in-depth data analysis for optimizing the customer buying journey.</li>
+                    <li class="">Supervised and provided guidance and feedback to fellow marketing professionals.</li>
+                  </ul>
+              </li>
+              <li class="mb-10 ml-6">
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-gradient rounded-full -left-3 material-icons text-white text-[14px]">business_center</span>
+                <h3 class="flex items-center mb-1 text-lg lg:text-xl font-medium text-gray-900" data-aos="fade-up">
+                  Co-founder
+                </h3>
+                <div class="flex flex-wrap justify-between gap-2 mb-2" data-aos="fade-up">
+                  <p class="flex"><a href="https://qollie.com/" target="_blank" class="text-primary font-medium hover:underline">Qollie 求職天眼通 (Taipei, TW)</a></p>
+                  <time class="block font-normal leading-none text-gray-500">September 2016 - September 2017</time>
+                </div>
+                <p class="hidden lg:inline text-gray-500 italic" data-aos="fade-up">Qollie is one of Taiwan's most influential job reviewing websites, boasting a user base of over 65,000 registered individuals. Although the company ceased full-time operations in September 2017, the website is currently being maintained and operated as a side project.</p>
+                <ul class="list-disc pt-4 pl-5" data-aos="fade-up">
+                  <li class="mb-4">Selected as a participant of AppWorks Accelerator Program 14, the largest startup accelerator program in Asia.</li>
+                  <li class="mb-4">Conducted marketing surveys and user interviews to define product strategies and ensure alignment with user needs, resulting in over 11 million unique page views and more than 100,000 registered users within a single year.</li>
+                  <li>Achieved a significant milestone of over 100,000 unique page views on our blog within 3 months by implementing content marketing ideas and forging partnerships with writers.</li>
+                </ul>
+              </li>
+              <li class="ml-6">
+                <span class="absolute flex items-center justify-center w-6 h-6 bg-gradient rounded-full -left-3 material-icons text-white text-[14px]">business_center</span>
+                <h3 class="flex items-center mb-1 text-lg lg:text-xl font-medium text-gray-900" data-aos="fade-up">
+                  Marketing Specialist
+                </h3>
+                <div class="flex flex-wrap justify-between gap-2 mb-2" data-aos="fade-up">
+                  <p class="flex"><a href="https://tw.voicetube.com/" target="_blank" class="text-primary font-medium hover:underline">VoiceTube 紅點子科技 (Taipei, TW)</a></p>
+                  <time class="block font-normal leading-none text-gray-500">June 2016 - February 2017</time>
+                </div>
+                <p class="hidden lg:inline text-gray-500 italic" data-aos="fade-up">VoiceTube is a leading online language learning platform headquartered in Taiwan. During my tenure, my primary responsibilities revolved around driving app downloads and overseeing various app-related projects.</p>
+                <ul class="list-disc pt-4 pl-5" data-aos="fade-up">
+                  <li class="mb-4">Implemented ASO strategies to track and optimize data, resulting in the app being ranked No.1 in the Education category on both the iTunes and Google Play Store. App had accumulated over 2M downloads up to 2017.</li>
+                  <li class="mb-4">Initiated and designed LINE bot, securing a partnership with LINE and amassing 60,000 followers on the platform.</li>
+                  <li>Led and managed a team of 3 interns responsible for social media and blog content. Through user behavior analysis and content optimization, achieved an additional 26,000 followers on Instagram.</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Other Professional Experience -->
+      <section class="py-10 lg:py-12">
+        <div class="container">
+          <h2 class="relative text-2xl lg:text-4xl font-bold text-center mx-auto pb-4 mb-4 after:w-[80px] after:h-[3px] after:bg-primary after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2">Other Professional Experience</h2>
+          <div>
+            <ul class=" mt-10 lg:mt-20 flex flex-wrap gap-y-[50px] lg:-mx-3">
+              <li class="w-full lg:w-1/2 lg:px-3 group hover:translate-y-2 cursor-default transition-all ease-in-out">
+                <div class="p-8 border rounded-xl h-full relative bg-white lg:group-hover:ring-primary lg:group-hover:ring-1 lg:transition-all">
+                  <div
+                    class="bg-white rounded-full px-2 absolute top-0 left-10 -translate-y-1/2"
+                  >
+                    <span class="bg-white text-5xl text-gradient lg:text-inherit material-icons-outlined lg:group-hover:text-gradient lg:group-hover:scale-110 lg:group-hover:rotate-12">school</span>
+                  </div>
+                  <p><a class="text-primary hover:underline lg:group-hover:font-semibold" href="https://www.hexschool.com/" target="_blank">HexSchool 六角學院</a></p>
+                  <h3 class="text-lg font-medium lg:group-hover:font-semibold mb-4">Coding Teaching Assistant</h3>
+                  <p>
+                    Assisted in grading assignments, providing feedback, and answering students' questions online.
+                  </p>
+                </div>
+              </li>
+              <li class="w-full lg:w-1/2 lg:px-3 group hover:translate-y-2 cursor-default transition-all ease-in-out">
+                <div class="p-8 border rounded-xl h-full relative bg-white lg:group-hover:ring-primary lg:group-hover:ring-1 lg:transition-all">
+                  <div
+                    class="bg-white rounded-full px-2 absolute top-0 left-10 -translate-y-1/2"
+                  >
+                    <span class="bg-white text-5xl text-gradient lg:text-inherit material-icons-outlined lg:group-hover:text-gradient lg:group-hover:scale-110 lg:group-hover:rotate-12">groups</span>
+                  </div>
+                  <p><a class="text-primary hover:underline lg:group-hover:font-semibold" href="https://bizthinking.com.tw/" target="_blank">BizThinking Academy 商業思維學院</a></p>
+                  <h3 class="text-lg font-medium lg:group-hover:font-semibold mb-4">President of Product Club</h3>
+                  <p>
+                    Led a team of 14. Organized courses, bootcamps, and community operations. Hosted 10+ events with 3000+ attendees.
+                  </p>
+                </div>
+              </li>
+              <li class="w-full lg:w-1/2 lg:px-3 group hover:translate-y-2 cursor-default transition-all ease-in-out">
+                <div class="p-8 border rounded-xl h-full relative bg-white lg:group-hover:ring-primary lg:group-hover:ring-1 lg:transition-all">
+                  <div
+                    class="bg-white rounded-full px-2 absolute top-0 left-10 -translate-y-1/2"
+                  >
+                    <span class="bg-white text-5xl text-gradient lg:text-inherit material-icons-outlined lg:group-hover:text-gradient lg:group-hover:scale-110 lg:group-hover:rotate-12">rocket_launch</span>
+                  </div>
+                  <p><a class="text-primary hover:underline lg:group-hover:font-semibold" href="https://www.zeczec.com/" target="_blank">zeczec 嘖嘖</a></p>
+                  <h3 class="text-lg  font-medium lg:group-hover:font-semibold mb-4">Project Manager (part-time)</h3>
+                  <p>
+                    As a part-time project manager in Taiwan's leading crwodfunding company, I supported 100+ clients,facilitating the achievement of their crowdfunding goals.
+                  </p>
+                </div>
+              </li>
+              <li class="w-full lg:w-1/2 lg:px-3 group hover:translate-y-2 cursor-default transition-all ease-in-out">
+                <div class="p-8 border rounded-xl h-full relative bg-white lg:group-hover:ring-primary lg:group-hover:ring-1 lg:transition-all">
+                  <div
+                    class="bg-white rounded-full px-2 absolute top-0 left-10 -translate-y-1/2"
+                  >
+                    <span class="bg-white text-5xl text-gradient lg:text-inherit material-icons-outlined lg:group-hover:text-gradient lg:group-hover:scale-110 lg:group-hover:rotate-12">emoji_events</span>
+                  </div>
+                  <p><a class="text-primary hover:underline lg:group-hover:font-semibold" href="https://medium.com/mithriltoken/%E7%AC%AC%E4%B8%80%E5%B1%86%E7%A7%98%E9%8A%80%E9%BB%91%E5%AE%A2%E6%9D%BE%E6%AD%A3%E5%BC%8F%E8%90%BD%E5%B9%95-d4f3c400ff18" target="_blank">MITH Hackathon</a></p>
+                  <h3 class="text-lg font-medium lg:group-hover:font-semibold mb-4">Hackathon Champion</h3>
+                  <p>
+                    Participated & won the champion in MITH Hackathon. Integrated MITH token with our platform "Qollie," rewarding users for actively sharing reviews through social mining mechanism.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      
+      <!-- Contact -->
+      <section id="contact" class="bg-primary bg-opacity-10 py-10 lg:py-20">
+        <div class="container flex flex-col items-center">
+          <h2 class="relative text-2xl lg:text-3xl font-bold text-center mx-auto pb-4 mb-4 after:w-[80px] after:h-[3px] after:bg-primary after:absolute after:bottom-0 after:left-[50%] after:-translate-x-1/2">Find Me At 👇</h2>
+          <ul class="my-8 font-azeret">
+            <li class="mb-6"><a class="flex items-center gap-3 hover:text-gradient transition-all ease-in-out" href="https://www.linkedin.com/in/hsieh-ya-chu/" target="_blank"><i class="fa fa-linkedin" style="font-size:20px;"></i>LinkedIn</a></li>
+            <li class="mb-6"><a class="flex items-center gap-3 hover:text-gradient transition-all ease-in-out" href="https://github.com/yachuh" target="_blank"><i class="fa fa-github" style="font-size:20px;"></i>Github</a></li>
+            <li class=""><a class="flex items-center gap-3 hover:text-gradient transition-all ease-in-out" href="mailto:yachuh@gmail.com" target="_blank"><i class="fa fa-envelope" style="font-size:20px;"></i>yachuh@gmail.com</a></li>
+          </ul>
+          <a href="https://lihi3.cc/tydM7"  target="_blank" class="btn btn-gradient">Resume</a>
+        </div>
+      </section>
+    </main>
+
+    <%- include('./layout/footer'); -%>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
